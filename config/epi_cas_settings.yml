@@ -58,7 +58,7 @@ defaults: &defaults
   # Users must also be in a group that is allowed to be created automatically in the app (see groups_allowed_to_be_created).
   departments_allowed_to_be_created:
     #- EPG
-    - COM
+    #- COM
     # - etc
 
   # Usernames specified here can always log in and are always automatically created in the app when logging in,
